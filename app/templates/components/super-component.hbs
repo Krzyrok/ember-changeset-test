@@ -1,0 +1,16 @@
+<div>
+  {{input value=myObject.value}}
+</div>
+
+<div>
+  here is my value: {{myObject.value}}
+</div>
+<div>
+  here is original obj: {{myObj.value}}
+</div>
+<div>
+  here is another changeset with the same original obj: {{myObject2.value}}
+</div>
+
+<button {{action "confirm"}}>Confirm</button>
+<button {{action "changeValue"}}>Change value</button>
